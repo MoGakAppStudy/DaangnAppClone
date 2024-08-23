@@ -23,6 +23,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             rootViewController: TabBarViewController()
         )
         window?.makeKeyAndVisible()
+        window?.overrideUserInterfaceStyle = .light
     }
 }
 

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TabBarViewController.swift
 //  DaangnAppClone
 //
 //  Created by Ellen J on 8/21/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class TabBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

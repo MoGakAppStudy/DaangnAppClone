@@ -19,7 +19,6 @@
 		9BED9B142C7F739B000AF12A /* Requester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED9B132C7F739B000AF12A /* Requester.swift */; };
 		9BED9B172C7F7519000AF12A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BED9B162C7F7519000AF12A /* API.swift */; };
 		9BF7ABB02C787A730036AF4A /* TabBarComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7ABAF2C787A730036AF4A /* TabBarComponent.swift */; };
-		9BF7ABB82C78D6710036AF4A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF7ABB72C78D6710036AF4A /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +68,6 @@
 		9BED9B132C7F739B000AF12A /* Requester.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requester.swift; sourceTree = "<group>"; };
 		9BED9B162C7F7519000AF12A /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		9BF7ABAF2C787A730036AF4A /* TabBarComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarComponent.swift; sourceTree = "<group>"; };
-		9BF7ABB72C78D6710036AF4A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,7 +184,6 @@
 		9BF7ABB62C78D5B00036AF4A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				9BF7ABB72C78D6710036AF4A /* Network.swift */,
 				9BED9B152C7F73CE000AF12A /* Network */,
 			);
 			path = Core;
@@ -329,7 +326,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BF7ABB82C78D6710036AF4A /* Network.swift in Sources */,
 				9B9A5A872C75962B003BDEC2 /* TabBarViewController.swift in Sources */,
 				9BED9B122C7F707E000AF12A /* HTTPMethod.swift in Sources */,
 				9B9A5A832C75962B003BDEC2 /* AppDelegate.swift in Sources */,
